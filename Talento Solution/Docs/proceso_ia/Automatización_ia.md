@@ -160,11 +160,6 @@ En lugar de sólo linting estático, integrar un step en el pipeline que analice
 | Tarea | Herramienta recomendada | Por qué |
 |---|---|---|
 | Tests en cada push | GitHub Actions + pytest | Determinista, reglas fijas |
-| Linting y formato | flake8 + black | Reglas bien definidas |
-| Cobertura de tests | pytest-cov + Codecov | Métrica objetiva |
-| Backup del catálogo | Script cron + JSON | Lógica pura |
-| Alertas de vencimiento | Script + email/webhook | Comparación de fechas |
-| Changelog automático | git-cliff | Basado en commits |
 | **Búsqueda semántica** | **Sentence Transformers / embeddings** | Lenguaje natural ambiguo |
 | **Recomendaciones** | **ML colaborativo / embeddings** | Patrones latentes en datos |
 | **Asistente conversacional** | **LLM (Claude / GPT)** | Interfaz en lenguaje natural |
