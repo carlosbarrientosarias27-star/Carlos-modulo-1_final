@@ -1,4 +1,5 @@
-1. Registro de nuevos ejemplares
+## 1. Registro de nuevos ejemplares 
+
 Como bibliotecario,
 
 quiero poder agregar libros con ID, título y autor al sistema,
