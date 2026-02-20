@@ -4,6 +4,7 @@ Este es el flujo lógico que sigue tu método prestar_libro(id_libro, usuario):
 
 ## Fragmento de código
 
+```text
 graph TD
     A[Inicio: Solicitar préstamo] --> B{¿Existe el ID?}
     B -- No --> C[Retornar: ID no encontrado]
@@ -11,4 +12,5 @@ graph TD
     D -- No --> E[Retornar: Libro ya prestado]
     D -- Sí --> F[Cambiar disponible a False]
     F --> G[Registrar usuario en historial]
-    G --> H[Retornar: Confirmación de éxito]
+    G --> H[Retornar: Confirmación de éxito] 
+    ```

@@ -69,12 +69,12 @@ Reducción
 
 Este documento describe la evolución del código en `src/biblioteca.py` tras la interacción con la IA.
 
-## Generado por la IA (Core)
+# Generado por la IA (Core)
 * **Lógica de Clases**: Creación de `Libro` y `Biblioteca` con diccionarios para acceso rápido por ID.
 * **Búsqueda Flexible**: Implementación de una "list comprehension" para filtrar libros por título o autor sin importar mayúsculas.
 * **Sistema de Préstamos**: Métodos para alternar el booleano `disponible` y gestionar el diccionario de `historial_prestamos`.
 
-## Refactorizaciones Solicitadas
+# Refactorizaciones Solicitadas
 1. **Encapsulamiento**: Se transformó `id_libro` en una propiedad protegida (`@property`) para evitar sobrescrituras accidentales.
 2. **Normalización de Tipos**: Se forzó la conversión a `str` de los IDs en todas las funciones para evitar errores si el usuario ingresa números (ej. `101` vs `"101"`).
 3. **Validación de Instancias**: Se añadió `isinstance` en `agregar_libro` para asegurar que no se inserten datos corruptos en el catálogo.
