@@ -3,20 +3,20 @@ Planifique un sistema de Gestión de biblioteca
 
 Donde lo Estructure asi: 
 
-## Sistema de Gestión de Biblioteca (Piloto IA)
+# Sistema de Gestión de Biblioteca (Piloto IA)
 Este proyecto es un piloto experimental diseñado para demostrar la integración de la Inteligencia Artificial en el flujo de desarrollo de software (SDLC). El sistema permite gestionar un catálogo de libros, procesar préstamos y registrar devoluciones de forma eficiente.
 
-## Estructura del Sistema
+# Estructura del Sistema
 El núcleo del sistema se divide en dos componentes principales:
 
-# 1. Entidad Libro (Class Libro)
+## 1. Entidad Libro (Class Libro)
 Representa la unidad básica de información del catálogo.
 
 Atributos: ID único, título, autor y estado de disponibilidad.
 
 Funcionalidad: Formateo automático de la información del libro para visualización del usuario.
 
-# 2. Motor de Gestión (Class Biblioteca)
+## 2. Motor de Gestión (Class Biblioteca)
 Controla la lógica de negocio y el almacenamiento de datos.
 
 Gestión de Inventario: Permite agregar libros al sistema mediante un diccionario para búsquedas rápidas por ID.
@@ -33,7 +33,7 @@ Módulo de Devoluciones: * Restablece la disponibilidad del ejemplar.
 
 Limpia el registro del historial de préstamos activos.
 
-## Flujo de Desarrollo Asistido por IA
+# Flujo de Desarrollo Asistido por IA
 Para este proyecto, se han aplicado herramientas de IA en las siguientes etapas:
 
 Planificación: Definición de los métodos necesarios para un flujo lógico de préstamo y devolución.

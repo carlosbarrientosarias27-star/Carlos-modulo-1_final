@@ -1,6 +1,6 @@
-## 1. Revisa todo el código generado por IA: 
+# 1. Revisa todo el código generado por IA: 
 
-# ¿Hay algo sospechosamente copiado? 
+## ¿Hay algo sospechosamente copiado? 
 
     No en el sentido de robo de propiedad intelectual, sino en el uso de patrones genéricos.
 
@@ -10,7 +10,7 @@ Filtros de búsqueda: El uso de termino.lower() y comprensiones de lista para bu
 
 Comentarios y Emojis: El uso de íconos (📖, ❌, ⚠️) en los return es una marca muy característica de modelos de lenguaje modernos (como yo) para hacer la salida de consola más amigable. En un entorno profesional de backend, esos mensajes suelen ser simples strings o códigos de error.
 
-# ¿Hay riesgos de seguridad? 
+## ¿Hay riesgos de seguridad? 
 
 Aunque el código funciona para una prueba local, presenta riesgos si piensas escalarlo o conectarlo a una web:
 
@@ -33,12 +33,12 @@ Actualmente, todo vive en el diccionario self.libros.
 
 Riesgo: Si el script se detiene o hay un error, todos los datos se pierden. No hay una capa de persistencia (SQL, JSON o CSV). 
 
-## 2. Uso de IA en este proyecto 
+# 2. Uso de IA en este proyecto 
 
-# ¿Qué Herramientas usaste? 
+## ¿Qué Herramientas usaste? 
 Google Geminis 
 
-# ¿Para Qúe? 
+## ¿Para Qúe? 
 
     La IA no solo "escribió" líneas, sino que actuó como un consultor técnico en las siguientes áreas:
 
@@ -50,7 +50,7 @@ Generación de Casos de Prueba: Creación del bloque if __name__ == "__main__": 
 
 Auditoría de Seguridad: Identificación de riesgos como la falta de persistencia de datos y la ausencia de validación de IDs duplicados. 
 
-# ¿Qué porcentaje aproximado de código viene de IA? 
+## ¿Qué porcentaje aproximado de código viene de IA? 
 
 Código generado/sugerido por IA: 85%. La estructura completa de las clases y la lógica de los métodos principales (prestar, devolver, buscar) fue propuesta por el modelo.
 
